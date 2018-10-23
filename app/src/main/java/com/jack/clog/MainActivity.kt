@@ -23,6 +23,7 @@ class MainActivity : FragmentActivity() {
         CLog.debug("i am a test")
         CLog.error("i am a test")
         CLog.info("i am a test")
+        CLog.error(Throwable("i am a error test"))
         CLog.assert("i am a test")
         CLog.verbose("i am a test")
         CLog.json("TAG", Gson().toJson(mList))
